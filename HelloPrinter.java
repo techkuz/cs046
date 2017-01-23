@@ -1,8 +1,21 @@
+import java.util.Scanner;
+
+
 public class HelloPrinter {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         System.out.println("Hello, world!");
-    for(int i = 0; i <= 6; i = i + 2){
+        for(int i = 0; i <= 6; i = i + 2)
+        {
         System.out.println(i);
-    }
+        }
+        int input = 0;
+        
+        Scanner in = new Scanner(System.in);
+        while(true)
+        {   
+            
+            input = in.nextInt();
+        }
     }
 }
