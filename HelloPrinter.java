@@ -20,9 +20,6 @@ public class HelloPrinter {
             System.out.println(a);
             //System.out.println(i);
         }
-        int b = a.size();
-        System.out.println(b);
-        System.out.println(a);
-        System.out.println("" + 1 + 1 + " dogs"); 
+        System.out.println(3/2);
     }
 }
