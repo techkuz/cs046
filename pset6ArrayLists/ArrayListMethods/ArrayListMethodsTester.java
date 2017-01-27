@@ -14,7 +14,7 @@ public class ArrayListMethodsTester
         ArrayListMethods zoo = new ArrayListMethods(animals); 
         zoo.list.add("ape");
         zoo.list.add("dog");
-        soo.list.add("zebra");
+        zoo.list.add("zebra");
         
         //test isSorted
         System.out.println(zoo.isSorted());
